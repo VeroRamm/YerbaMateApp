@@ -1,0 +1,580 @@
+/*Se da una estilo general a la pagina*/
+:root {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%2335CC56' width='11' height='11'/%3E%3Crect fill='%233acd57' x='10' width='11' height='11'/%3E%3Crect fill='%233fcd59' y='10' width='11' height='11'/%3E%3Crect fill='%2344ce5a' x='20' width='11' height='11'/%3E%3Crect fill='%2348ce5b' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%234dcf5d' y='20' width='11' height='11'/%3E%3Crect fill='%2350d05e' x='30' width='11' height='11'/%3E%3Crect fill='%2354d05f' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%2358d161' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%235bd162' y='30' width='11' height='11'/%3E%3Crect fill='%235fd263' x='40' width='11' height='11'/%3E%3Crect fill='%2362d265' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2365d366' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2368d468' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%236bd469' y='40' width='11' height='11'/%3E%3Crect fill='%236ed56a' x='50' width='11' height='11'/%3E%3Crect fill='%2371d56c' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2374d66d' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2377d76f' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2379d770' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%237cd872' y='50' width='11' height='11'/%3E%3Crect fill='%237fd873' x='60' width='11' height='11'/%3E%3Crect fill='%2381d975' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%2384d976' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%2386da78' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2389db79' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%238bdb7b' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%238edc7c' x='70' width='11' height='11'/%3E%3Crect fill='%2390dc7e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2392dd80' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2395dd81' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2397de83' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2399de84' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%239bdf86' x='80' width='11' height='11'/%3E%3Crect fill='%239ee088' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23a0e089' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23a2e18b' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23a4e18c' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23a6e28e' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23a8e290' x='90' width='11' height='11'/%3E%3Crect fill='%23aae391' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ace493' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23aee495' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23b0e597' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23b2e598' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23b4e69a' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23b6e69c' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23b8e79d' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23bae89f' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23bce8a1' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23bee9a3' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23c0e9a4' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23c2eaa6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3eba8' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c5ebaa' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23c7ecac' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23c9ecad' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23cbedaf' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23ccedb1' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23CEEEB3' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;  
+    font-family: 'Ubuntu', sans-serif;
+}
+/*ESTILO DEL HTML PRINCIPAL*/
+/*Estilo en el header, con flex*/
+.containerPrincipal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  
+}
+.div-img {
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+.header-h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 8, 12);
+    text-shadow: #556b5e 10px 1px 9px;  
+}
+/*Estilo del navegador*/
+.nav-li{
+    width: 100%;
+    font-size: 30px;
+    margin: 40px 100px -20px 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    text-shadow: 7px 8px 5px #063a1b;
+}
+/*Se trabajo con una animacion de opacidad en las opcines del navegador*/
+.nav-li:hover{
+    animation-duration: 2s;
+    animation-name: nav-mouse;
+}
+@keyframes nav-mouse {
+    from {
+        opacity: 0;
+    }
+    15%, 45% {
+        opacity: .15;
+    }
+    25%, 75% {
+        opacity: .35;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*Comenzamos con el estilo del cuerpo, se trabajo con display flex*/
+.conteinerCuerpo{
+    margin: 30px 40px;
+    width: 100%;
+    font-size: 18px;
+}
+.article1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(24, 148, 65, 0.2);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(2, 14, 8, 0.667);
+}
+.article1 img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+/*Si bien el conteinerCuerpo tiene display flex, 
+para esta caja en particular se uso display grid.*/
+.conten2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px; 
+    margin: 10px 20px 0px 0px;
+}
+.conten2-article2-img{
+    width: 500px;
+}
+.conten2-article3-img{
+    width: 400px;   
+}
+.conten2-article3-img:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+/*Esta seccion del html principal toma otro estilo para diferenciarla*/
+.curiosidades{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    background-color: rgba(200, 248, 194, 0.1);
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.curiosidades h2{
+    font-size: 50px;
+    width: 100%;
+    margin-left: 20px; 
+    margin-top: 10px; 
+}
+/*Este article tiene animacion para resaltar la lista de curiosidades*/
+.article1-li{
+    list-style: none;
+    text-align: center;
+}
+.article1-li:hover{
+    animation-duration: 2s;
+    animation-name: li-mouse;
+    background-color: rgb(8, 143, 66);
+    color: #fff;
+}
+@keyframes li-mouse {
+    from {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        
+     to {
+            margin-bottom: 5px;
+            font-weight: 100; 
+        }
+}
+/*ESTILO PARA LAS OTRAS HTMLs*/
+/*Estilo del header de las otras HTMLs*/
+.header-h2{
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 8, 12);
+    margin: 5%;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-shadow: #556b5e 10px 1px 9px;
+}
+/*Desde aca vemos el Estilo de la HTML Beneficios*/
+.b-header-img{
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.b-h4{
+    width: 100%;
+    font-size: 20px;
+    color: rgb(0, 8, 12);
+    margin: 1%;
+}
+.b-contenido{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(0, 8, 12);
+    margin: 140px 0 -10px 20px;
+    text-shadow: #556b5e 10px 1px 9px;
+} /*Se utilizo para el HTML de beneficios display grid.*/
+.b-conten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.b-conten p{
+    border: 3px solid rgba(24, 148, 65, 0.2);
+    border-radius: 10% 22% 33% 10% / 10% 27% 39% 10%;
+    padding: 30px;
+    -webkit-border-radius: 10% 22% 33% 10% / 10% 27% 39% 10%;
+    -moz-border-radius: 10% 22% 33% 10% / 10% 27% 39% 10%;
+    -ms-border-radius: 10% 22% 33% 10% / 10% 27% 39% 10%;
+    -o-border-radius: 10% 22% 33% 10% / 10% 27% 39% 10%;
+}
+/*Estilo de la HTML de Origenes.*/
+/*Se utilizo para el HTML de origen display grid.*/
+.contenedorOrigen{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 95%; 
+    margin: 20px;
+    padding: 10px;
+}
+.origen1{
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.origen2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+/*Seccion del video*/
+.preparacion{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(200, 248, 194, 0.1);
+}
+/*Estilo para que el video de Preparacion sea responsive*/
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    }
+    
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 90%;
+    height: 100%;
+    }
+/*Estilo de la HTML de contacto que tiene el formulario.*/
+/*Se utilizo display block para el HTML de contacto.*/
+.bodyContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+}
+.contenedorDeDatos{
+    align-items: center;
+    width: 50%; 
+}
+.imagenContacto{
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+}
+.imagenContacto:hover { filter: sepia(70%); 
+    -webkit-filter: sepia(70%); 
+}
+
+.form-control label {
+	display: inline-block;
+	margin-top: 10px;
+}
+.form-control input {
+	display: block;
+	font-size: 14px;
+	padding: 5px;
+	width: 100%;
+}
+/*Mensaje de error al cargar el formulario*/
+#error{
+    color: red;
+    font-size: 15px;
+    display: block;
+}
+.formBoton {
+	background-color: #0f7a38;
+	border: 2px solid #43c584;
+	border-radius: 4px;
+	color: rgb(209, 202, 202);
+	display: block;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+    font-weight: bold;
+}
+.formBoton:hover {
+    background-color: #b4f3d4;
+    border: 2px solid #0f7a38;
+    color: rgb(37, 34, 34);
+    font-weight: bold;
+    cursor: pointer;
+}
+/*Estilo para el HTML de productos*/
+.containerProd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-left: 40px;
+}
+.producto{
+    width: 60%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 10px;
+}
+.imgProd{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.boton{
+    background-color: #1b1d1b;
+    border: 2px solid #0a0a0a;
+    border-radius: 4px;
+    color: rgb(209, 202, 202);
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+/*El footer de la pagina principal no tiene opcion de barra de navegacion como tienen las otras HTMLs. */
+.Footer-Principal {   
+    width: 100%;;  
+    text-align: center;
+    border-top: 1px solid #063a1b;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.footer-icon{
+    text-align: center;
+}
+/*Este footer ademas de los dos div como el footer principal, tiene otro div que tiene el navegador del navegador
+ el cual se animo como el navegador principal*/
+.b-footer-menu{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    margin-top: 30px;
+    border-top: 1px solid #063a1b;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.b-footer-menu a:hover{
+    animation-duration: 2s;
+    animation-name: nav-mouse;
+}/*Animacion en el navegador del footer*/
+@keyframes nav-mouse {
+    from {
+        opacity: 0;
+    }
+    15%, 45% {
+        opacity: .15;
+    }
+    25%, 75% {
+        opacity: .35;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.b-footer-div{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+/*Estilo del link para subir en la pagina.*/
+.arriba{
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*Estilo html login form */
+.loginBody{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%2335CC56' width='11' height='11'/%3E%3Crect fill='%233acd57' x='10' width='11' height='11'/%3E%3Crect fill='%233fcd59' y='10' width='11' height='11'/%3E%3Crect fill='%2344ce5a' x='20' width='11' height='11'/%3E%3Crect fill='%2348ce5b' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%234dcf5d' y='20' width='11' height='11'/%3E%3Crect fill='%2350d05e' x='30' width='11' height='11'/%3E%3Crect fill='%2354d05f' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%2358d161' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%235bd162' y='30' width='11' height='11'/%3E%3Crect fill='%235fd263' x='40' width='11' height='11'/%3E%3Crect fill='%2362d265' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2365d366' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2368d468' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%236bd469' y='40' width='11' height='11'/%3E%3Crect fill='%236ed56a' x='50' width='11' height='11'/%3E%3Crect fill='%2371d56c' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2374d66d' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2377d76f' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2379d770' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%237cd872' y='50' width='11' height='11'/%3E%3Crect fill='%237fd873' x='60' width='11' height='11'/%3E%3Crect fill='%2381d975' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%2384d976' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%2386da78' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2389db79' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%238bdb7b' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%238edc7c' x='70' width='11' height='11'/%3E%3Crect fill='%2390dc7e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2392dd80' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2395dd81' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2397de83' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2399de84' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%239bdf86' x='80' width='11' height='11'/%3E%3Crect fill='%239ee088' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23a0e089' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23a2e18b' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23a4e18c' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23a6e28e' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23a8e290' x='90' width='11' height='11'/%3E%3Crect fill='%23aae391' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ace493' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23aee495' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23b0e597' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23b2e598' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23b4e69a' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23b6e69c' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23b8e79d' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23bae89f' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23bce8a1' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23bee9a3' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23c0e9a4' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23c2eaa6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3eba8' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c5ebaa' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23c7ecac' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23c9ecad' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23cbedaf' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23ccedb1' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23CEEEB3' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: rgb(56, 55, 55);
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: rgb(56, 54, 54);
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1;
+}
+
+.wrapper .form-field .fas {
+    color: rgb(56, 55, 55);
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #039BE5;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color:rgb(56, 55, 55);
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
+
+/*MediaQueries para generar una pagina responsitive*/
+/*Media de 0px a 576px*/
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+ /*Media de 576px a 850px*/
+@media (min-width: 0px) and (max-width: 760px) {
+    .containerPrincipal {
+        margin: 1px;
+    }
+    .nav-li{
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    .conteinerCuerpo{
+        font-size: 15px;
+        margin: 1px;
+    }
+    
+    .conten2-article2-img{
+        display: none;      
+    }
+    .conten2-article3-img{
+            width: 200px;      
+    }
+    .b-conten p{
+        border-radius: none;
+        border: none;
+    }
+    .div-img{
+        display: none;
+    }
+    .header-h1{
+        font-size: 70px;
+    }
+    .form-control input{
+        font-size: 18px;
+    }
+    .imagenContacto{
+        display: none;
+    }
+    .contenedorDeDatos{
+        width: 100%;
+    }
+    .b-footer-menu{
+        font-size: 10px;
+    }
+    .b-footer-div{
+        font-size: 10px;
+    }
+    .contenedorOrigen{
+        grid-template-columns: 1fr 1fr;
+    }
+    .origen1 img{
+        display: none;
+    }
+} 
+/*Media de 850px a 1100px */
+@media (min-width: 760px) and (max-width: 1000px) and (orientation:landscape) {
+    .containerPrincipal {
+        margin: 1px;
+    }
+    .conteinerCuerpo{
+        font-size: 15px;
+        margin: 1px;}
+    
+    .conten2-article2-img{
+           float: left;
+            width: 200px; 
+            margin: 0 20px 0 30px;    
+    }
+    .conten2-article3-img{
+                width: 300px;
+    }
+    .header-h1{
+        font-size: 80px;
+    }
+    .contenedorOrigen{
+        grid-template-columns: 1fr 1fr;
+    }
+    .origen1 img{
+        width: 40%;
+    }
+}
+/*Media de 1000px a 1300px*/
+@media (min-width: 1000px) and (max-width: 1300px) and (orientation:landscape) {
+    .containerPrincipal {
+        margin: 1px;
+    }
+    
+    .conten2-article2-img{
+            width: 300px;      
+    }
+    .conten2-article3-img{
+            width: 300px;      
+    }
+}

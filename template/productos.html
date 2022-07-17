@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Productos</title>
+    <link rel="icon" href="../img/matelogo.ico">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/893ca4dba1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <h1>Yerbas mates disponibles en el mercado</h1>
+        <h4>En esta seccion les mostramos las distintas marcas que nos promocionan</h4>
+        <div class="containerProd" id="app">
+          <div v-for="producto in productos">
+            <div class="producto">
+              <img :src="producto.foto" alt="" class="imgProd">
+              <h2>{{producto.nombre}}</h2>
+              <p>Stock: {{producto.stock}}</p>
+                    <p>Precio: {{producto.precio}}</p>
+                    <button class="boton">Comprar</button>
+                </div>
+
+            </div>
+               
+           
+        </div>
+        
+      </main>
+    <footer>
+      <div class="b-footer-menu"> <!--Se creo animacion para esta seccion-->
+        <a href="index.html">> Volver a pagina principal</a>
+        <a href="origen.html">Origen</a></li>
+        <a href="beneficios.html">Beneficios</a></li>
+        <a href="Contacto.html">Contacto</a></li>            
+        <a href="login.html"> Iniciar Sesion</a>
+        </div>
+        <div class="b-footer-div">
+          <img clas="footer-logo"src="../img/matelogo.jpg" alt="Yerba Mate" width="30px">    
+            <p>Derecho Reservados- 2022</p>
+            <p>Autora: Maria Veronica Trias</p>
+            <p>Comision 22087- Profesora Marcela Cerda</p>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> </a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i> </a>
+          <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

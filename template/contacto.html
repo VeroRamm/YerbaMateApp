@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0" width="device-width">
+    <title>Yerba Mate</title>
+    <link rel="icon" href="../img/matelogo.ico">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/893ca4dba1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2 class="header-h2">Envianos comentarios y sugerencias</h2>
+  <div class="bodyContacto">
+    <img src="../img/hojamate.jpg" alt="300px" class="imagenContacto"><!--Se creo animacion para esta seccion-->
+      <form action="" class="contenedorDeDatos" id="form">
+        <!--Ingreso de nombre, input que se valida-->
+        <div class="form-control">
+          <label for="nombre">Nombre</label>
+          <input type="text" placeholder="Nombre" id="nombre" />
+          
+        </div>
+              
+      <!-- Ingreso de apellido, input que se valida-->
+        <div class="form-control">
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Apellido" id="apellido" />
+            
+           </div>    
+          
+        <!-- Ingreso de email, input que se valida -->
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" placeholder="email@email.com" id="email" />
+          
+        </div>
+        <!--Formulario de gustos-->
+        <div class="form-control" id="tipo">
+          <p>Que tipo de yerba prefiere?</p>
+          <select name=" sabores" id="sabores">
+            <option value="1"> Yerba con palo</option>
+            <option value="2"> Yerba sin palo</option>
+            <option value="3"> Yerba saborizada</option>
+            <option value="4"> Yerba con compuesta con hierbas aromaticas</option>
+          </select>
+        </div>
+        <!--Formulario de comentarios-->
+        <div class="form-control" id="grupo__texto">
+          <label for="escribir">Puede escribir</label> <br>
+          <textarea name="escribir" cols="40" rows="10" id="texto"></textarea><br>
+        </div>
+       <!--Formulario de recibir info-->
+        <div class="info" id="info">
+          <p>Te gustaria recibir noticias por mail?</p>
+          <input type="radio" name="opcion"value="Si">Si
+          <input type="radio" name="opcion"value="No">No
+        </div>
+       <!--Boton de enviar-->
+        <div >
+          <button type="submit" class="formBoton" id="formBoton" >Enviar</button>
+        </div> 
+        <div id="error"></div>
+      </form>      
+  </div>
+  
+     <footer>
+      <div class="b-footer-menu"> <!--Se creo animacion para esta seccion-->
+        <a href="index.html">> Volver a pagina principal</a>
+        <a href="origen.html">Origen</a>
+        <a href="beneficios.html">Beneficios</a>
+        <a href="Contacto.html">Contacto</a> 
+        <a href="productos.html">Productos</a>          
+      </div>
+      <div class="b-footer-div">
+        <img clas="footer-logo"src="../img/matelogo.jpg" alt="Yerba Mate" width="30px">    
+          <p>Derecho Reservados- 2022</p>
+          <p>Autora: Maria Veronica Trias</p>
+          <p>Comision 22087- Profesora Marcela Cerda</p>
+      </div>
+      <div class="footer-icon">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> </a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i> </a>
+        <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </footer>
+
+  <script src="../js/validation.js"></script>
+
+</body>
